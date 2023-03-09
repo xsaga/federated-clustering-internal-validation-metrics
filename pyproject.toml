@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "federated_clustering_validation"
+version = "0.1"
+authors = [
+  {name="xsaga"},
+]
+description = "Compute internal clustering validation metrics in a federated learning scenario."
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "scikit-learn>=1.1",
+]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xsaga/federated-clustering-internal-validation-metrics"
+"Bug Tracker" = "https://github.com/xsaga/federated-clustering-internal-validation-metrics/issues"
